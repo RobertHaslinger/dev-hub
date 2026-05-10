@@ -1,0 +1,11 @@
+# local/runtime
+.opencode/
+.idea/
+node_modules/
+
+# project repos and notes excluded from hub repo
+projects/
+
+# misc local noise
+.DS_Store
+*.log
