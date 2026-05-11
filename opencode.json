@@ -12,6 +12,20 @@
   "plugin": [
     "opencode-agent-memory"
   ],
+  "provider": {
+    "lmstudio": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "LM Studio (local)",
+      "options": {
+        "baseURL": "http://127.0.0.1:1234/v1"
+      },
+      "models": {
+        "google/gemma-4-e4b": {
+          "name": "Gemma 4 e4b (local)"
+        }
+      }
+    }
+  },
   "mcp": {
     "chrome-devtools": {
       "type": "local",

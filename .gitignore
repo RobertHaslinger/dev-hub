@@ -11,6 +11,13 @@ projects/*
 !projects/_template/**
 !projects/.opencode/
 !projects/.opencode/**
+!projects/opencode-demo/
+projects/opencode-demo/*
+!projects/opencode-demo/.opencode/
+projects/opencode-demo/.opencode/*
+!projects/opencode-demo/.opencode/commands/
+projects/opencode-demo/.opencode/commands/*
+!projects/opencode-demo/.opencode/commands/start-ticket.md
 
 # misc local noise
 .DS_Store
